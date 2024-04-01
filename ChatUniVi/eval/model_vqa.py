@@ -4,11 +4,11 @@ import os
 import json
 from tqdm import tqdm
 import shortuuid
-from ChatUniVi.constants import *
-from ChatUniVi.conversation import conv_templates, SeparatorStyle
-from ChatUniVi.model.builder import load_pretrained_model
-from ChatUniVi.utils import disable_torch_init
-from ChatUniVi.mm_utils import tokenizer_image_token, get_model_name_from_path, KeywordsStoppingCriteria
+from ..constants import *
+from ..conversation import conv_templates, SeparatorStyle
+from ..model.builder import load_pretrained_model
+from ..utils import disable_torch_init
+from ..mm_utils import tokenizer_image_token, get_model_name_from_path, KeywordsStoppingCriteria
 from PIL import Image
 import math
 

@@ -2,8 +2,8 @@ import os
 import shutil
 from transformers import AutoTokenizer, AutoModelForCausalLM, AutoConfig, BitsAndBytesConfig
 import torch
-from ChatUniVi.model import *
-from ChatUniVi.constants import DEFAULT_IMAGE_PATCH_TOKEN, DEFAULT_IM_START_TOKEN, DEFAULT_IM_END_TOKEN
+from ..model import *
+from ..constants import DEFAULT_IMAGE_PATCH_TOKEN, DEFAULT_IM_START_TOKEN, DEFAULT_IM_END_TOKEN
 from accelerate import init_empty_weights, load_checkpoint_and_dispatch
 from transformers import AutoConfig, AutoModelForCausalLM
 

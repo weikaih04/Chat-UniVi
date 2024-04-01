@@ -3,7 +3,7 @@ import argparse
 import torch
 from tqdm import tqdm
 from transformers import AutoTokenizer, AutoModelForCausalLM
-from ChatUniVi import ChatUniViLlamaForCausalLM
+from .. import ChatUniViLlamaForCausalLM
 
 
 def apply_delta(base_model_path, target_model_path, delta_path):

@@ -23,17 +23,17 @@ import pathlib
 from typing import Dict, Optional, Sequence, List
 import torch
 import transformers
-from ChatUniVi.constants import *
+from ..constants import *
 from torch.utils.data import Dataset
-from ChatUniVi.train.trainer import ChatUniViTrainer
-from ChatUniVi import conversation as conversation_lib
-from ChatUniVi.model import *
-from ChatUniVi.mm_utils import tokenizer_image_token
-from ChatUniVi.config import ModelConfig, DataConfig
+from ..train.trainer import ChatUniViTrainer
+from . import conversation as conversation_lib
+from ..model import *
+from ..mm_utils import tokenizer_image_token
+from ..config import ModelConfig, DataConfig
 from PIL import Image
 import random
 import numpy as np
-from ChatUniVi.model.dataloader import _get_rawvideo_dec
+from ..model.dataloader import _get_rawvideo_dec
 
 
 local_rank = None

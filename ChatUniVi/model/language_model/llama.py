@@ -6,7 +6,7 @@ from transformers import AutoConfig, AutoModelForCausalLM, \
                          LlamaConfig, LlamaModel, LlamaForCausalLM
 from transformers.modeling_outputs import CausalLMOutputWithPast
 
-from ChatUniVi.model.arch import MetaModel, ChatUniViMetaForCausalLM
+from ...model.arch import MetaModel, ChatUniViMetaForCausalLM
 
 
 class ChatUniViConfig(LlamaConfig):

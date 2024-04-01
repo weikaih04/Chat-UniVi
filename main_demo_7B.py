@@ -1,9 +1,9 @@
 import torch
 import gradio as gr
 from fastapi import FastAPI
-from ChatUniVi.conversation import conv_templates, Conversation
-from ChatUniVi.demo import Chat
-from ChatUniVi.constants import *
+from .ChatUniVi.conversation import conv_templates, Conversation
+from .ChatUniVi.demo import Chat
+from .ChatUniVi.constants import *
 import os
 from PIL import Image
 import tempfile

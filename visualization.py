@@ -3,8 +3,8 @@ from PIL import Image
 import math
 import os
 import torch
-from ChatUniVi.model.multimodal_encoder.clip_encoder import CLIPVisionTower
-from ChatUniVi.model.cluster import CTM, TCBlock
+from .ChatUniVi.model.multimodal_encoder.clip_encoder import CLIPVisionTower
+from .ChatUniVi.model.cluster import CTM, TCBlock
 
 
 def split(image, patch_size=14, idx=None):
